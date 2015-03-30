@@ -1,0 +1,126 @@
+
+body {
+  background:#fff url(../images/background.png) repeat;
+  font-family: 'PT Sans', Sans-Serif;
+  font-size:14px;
+  margin:0;
+  text-align:center;
+}
+a {
+  text-decoration:none;
+  color:#dd5555;
+}
+
+.css3-notification {
+	font-size: .8em;
+	text-align: center;
+	padding: 10px;
+	background-color: #111;
+	color: #fff;
+	box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+	text-transform: uppercase;
+	position: relative;
+	font-weight: bold;
+	
+}
+
+.move-effect {
+ transition-duration: 0.5s;
+}
+
+.nav-bar {
+  width: 160px;
+  height:100%;
+  position:absolute;
+left:-125px; 
+  display:block;
+  background-color:#f44336;
+}
+
+.move-navibar {
+  left:0px;}
+
+.move-content {
+  left:25px;}
+
+.nav-bar-icon {
+  list-style-type: none;
+text-align: right;
+text-align: right;
+}
+
+.nav-bar-icon li {
+margin: 10px 10px auto auto;
+}
+
+#welcomeb {
+    text-align: center;
+    width:135px;
+    margin:15px auto auto -30px;;
+    position: relative;
+}
+.contributor-tab {
+  text-align: right;
+  /*background-color: red; */
+  min-width: 500px;
+  padding-bottom: 20px;
+}
+
+.contributor-each li {
+  display: inline-block;
+   margin: 0 10px;
+   max-width:40px;
+}
+
+.contributor-each li:hover {
+  opacity: 0.5;
+transition-duration: 1s;
+}
+
+.time-person {
+  width:200px;
+}
+
+.time-person-person:hover span{
+    display:inline; position:absolute; z-index:0;
+    border:1px solid #DCA; background:#fffAF0;}
+
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+
+.time-person li{
+  margin:5px 10px auto auto;
+  display: inline-block;
+  position: relative;
+}
+.contributor-one {
+  background-image: url('https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t31.0-1/c0.3.960.960/p960x960/1655827_10200589601821538_1631820609_o.jpg');
+  background-size: 100% 100%;
+  width:30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.contributor-two {
+  background-image: url('https://scontent-iad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10954203_10152925368564130_7284187035797821380_n.jpg?oh=9ceed518d149d65e6d4a84a56e9d96a9&oe=55B3DC65');
+  background-size: 100% 100%;
+  width:30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.contributor-three {
+  background-image: url('https://scontent-iad.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1982086_10152680268384807_7431898531702948786_n.jpg?oh=928ea9cea70f20870578de4fcaedc563&oe=55BDE501');
+  background-size: 100% 100%;
+  width:30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.popover {
+	display: none;
+	z-index: 2;
+	height: 480px;
+    padding-bottom: 20px;
+	width: 670px;
+	background-color: #eaeaea;
+}
