@@ -1,16 +1,26 @@
-// SHOW POP-OVER
-function showPopOver(divID) {
-	// SET THE DIV POSITION
-	document.getElementById(divID).style.left = "200px";
-	document.getElementById(divID).style.top = "50px";
 
-	// SHOW THE DIV
-	document.getElementById(divID).style.display = "block";
-}
+//--------------------  hide and show script --------------------------- -->
 
-// CLOSE POP-OVER
-function closePopOver(divID) {
-	// HIDE THE DIV
-	document.getElementById(divID).style.display = "none";
-}
+$(document).ready(function(){
+    $("#welcomeb").hide();
+    $(".remove-icon").hide();
+    $(".nav-bar-icon").click(function(){
+        $(".nav-bar").toggleClass('move-navibar move-effect');
+        $(".col-md-11").toggleClass('move-content ');
+        $("#welcomeb").toggle();
+        $(".remove-icon").toggle();
+    }); 
+ 
+});
 
+
+//--------------------  hide and show script --------------------------- -->
+
+
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+
+        

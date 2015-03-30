@@ -22,6 +22,40 @@
 <script type="text/javascript" src="js/lightbox.js"></script>
     <!--timeline link -->
 
+    <!-----image collage link --- -->
+      <link rel="stylesheet" type="text/css" href="css/setup_collage.css" media="all" />
+       <script src="js/jquery.collagePlus.js"></script>
+
+  
+    <script type="text/javascript">
+
+
+    // Here we apply the actual CollagePlus plugin
+    function collage() {
+        $('.Collage').removeWhitespace().collagePlus(
+            {
+                'fadeSpeed'     : 2000,
+                'targetHeight'  : 200,
+                'effect'        : 'effect-2',
+                'direction'     : 'vertical',
+                'allowPartialLastRow':true
+            }
+        );
+    };
+
+    // This is just for the case that the browser window is resized
+    var resizeTimer = null;
+    $(window).bind('resize', function() {
+        // hide all the images until we resize them
+        $('.Collage .Image_Wrapper').css("opacity", 0);
+        // set a timer to re-apply the plugin
+        if (resizeTimer) clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(collage, 200);
+    });
+
+    </script>
+    <!-----image collage link --- -->
+
 <script type="text/javascript" src="js/main_animate.js"></script>
     <!--twitter bootstrap -->
     <script type="text/javascript" src="js/tooltip.js"></script>
@@ -43,22 +77,7 @@ $(window).load(function() {
 </script>
 <!--timeline script 1 --> 
     
-    <!----------------------  hide and show script --------------------------- -->
-    <script>
-$(document).ready(function(){
-    $("#welcomeb").hide();
-    $(".remove-icon").hide();
-    $(".nav-bar-icon").click(function(){
-        $(".nav-bar").toggleClass('move-navibar move-effect');
-        $(".col-md-11").toggleClass('move-content ');
-        $("#welcomeb").toggle();
-        $(".remove-icon").toggle();
-    });   
- 
-});
-        
-</script>
- <!----------------------  hide and show script --------------------------- -->
+
 </head>
 
 <body>
@@ -133,21 +152,90 @@ $(document).ready(function(){
 
             <div class="timeline-window">
     <!-- ---------------------------------------------------- TIMELINE BEGINS ------------------------- -->
-            <div class="timelineCard tl">
-        <div class="item" data-id="10/01" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+            <div class="timelineCard tl">             
+                    <div class="item" data-id="10/01" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
+                      <div class="Collage effect-parent">
+
+<!----------------------- one image ------------------>
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/2.jpg"></a>
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/1.jpg"></a>
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-one"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Ehsan Karam"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/5.jpg"></a>
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-one"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Ehsan Karam"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/7.jpg"></a>
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-two"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Sarah Mosniak"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/9.jpg"></a>
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/4.jpg"></a>
+
+<!----------------------- one image ------------------>
+
+    </div>
             <a href="#" class="image_rollover_bottom">
             <img src="images/thumbnails/2.jpg" alt=""/>
             </a>
            <ul class="time-person">
                     <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
-                    <li class="time-person-time"><h4> 1:10am </h4></li>           
+                    <li class="time-person-time"> 1:10am </li>           
         </ul>
                   <a href="#" class="image_rollover_bottom">
             <img src="images/thumbnails/1.jpg" alt=""/>
             </a>
            <ul class="time-person">
                     <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
-                    <li class="time-person-time"><h4> 1:10am </h4></li>           
+                    <li class="time-person-time"> 1:10am </li>           
         </ul>
             <!-- <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at semper risus. Curabitur mattis dapibus quam, tincidunt rutrum sapient porta sit amet...</span>
             <div class="read_more" data-id="04/06/2012">Read more</div> 

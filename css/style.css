@@ -37,6 +37,7 @@ left:-125px;
   background-color:#f44336;
 }
 
+
 .move-navibar {
   left:0px;}
 
@@ -78,19 +79,42 @@ transition-duration: 1s;
 }
 
 .time-person {
+  position: relative;
+  text-align: left;
   width:200px;
+  height:30px;}
+
+
+.time-person li{
+  text-align: left;
+  display: inline-block;}
+
+
+.time-person-person{
+  max-width:15px;
+  margin-left:-38px;
 }
 
 .time-person-person:hover span{
-    display:inline; position:absolute; z-index:0;
+    display:inline; z-index:0;
     border:1px solid #DCA; background:#fffAF0;}
 
 .callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
 
-.time-person li{
-  margin:5px 10px auto auto;
-  display: inline-block;
-  position: relative;
+
+.time-person-time {
+  font-size: 14px;
+  font-weight:700;
+  margin-left: 20px;
+}
+
+.time-person-like {
+  max-width: 15px;
+  margin-left: -18px;
+}
+
+.time-person-count {
+  margin-left:22px;
 }
 .contributor-one {
   background-image: url('https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t31.0-1/c0.3.960.960/p960x960/1655827_10200589601821538_1631820609_o.jpg');
