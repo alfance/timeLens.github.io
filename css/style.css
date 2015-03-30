@@ -1,4 +1,23 @@
 
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/glyphicons-halflings-regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/glyphicons-halflings-regular.eot);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/glyphicons-halflings-regular.woff);
+    font-weight: bold;
+}
+
 body {
   background:#fff url(../images/background.png) repeat;
   font-family: 'PT Sans', Sans-Serif;
