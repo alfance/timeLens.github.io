@@ -133,7 +133,23 @@
 	-moz-box-shadow: -3px 1px 6px rgba(0,0,0,0.5);
 	-webkit-box-shadow: -3px 1px 6px rgba(0,0,0,0.5);
 	box-shadow: -3px 1px 6px rgba(0,0,0,0.5);
+	width:530px;
+}
+
+.itemW_small {
 	width:240px;
+}
+
+.itemW_medium {
+	width:440px;
+}
+
+.itemW_large {
+	width:740px;
+}
+
+.itemW_xlarge {
+	width:940px;
 }
 .timelineCard .item.item_node_hover {
 	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.9);

@@ -9,7 +9,7 @@ body{
     * Change this to try different borders
     */
     /* border:3px solid #FFF; */
-    max-height: 100px;
+    max-height: 120px;
       margin:3px;
    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */

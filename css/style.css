@@ -78,6 +78,17 @@ margin: 10px 10px auto auto;
 transition-duration: 1s;
 }
 
+.contributor-add li {
+  display: inline-block;
+   margin: 0 10px;
+   max-width:40px;
+}
+
+.contributor-add li:hover {
+  opacity: 0.5;
+transition-duration: 1s;
+}
+
 .time-person {
   position: relative;
   text-align: left;
@@ -111,6 +122,7 @@ transition-duration: 1s;
 .time-person-like {
   max-width: 15px;
   margin-left: -18px;
+
 }
 
 .time-person-count {
@@ -148,3 +160,13 @@ transition-duration: 1s;
 	width: 670px;
 	background-color: #eaeaea;
 }
+
+.image-place {
+  display: inline;
+  float:left;
+}
+
+.clickevent {
+  opacity: 0.4;
+}
+

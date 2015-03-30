@@ -21,6 +21,7 @@
 <script type="text/javascript" src="js/image.js"></script>
 <script type="text/javascript" src="js/lightbox.js"></script>
     <!--timeline link -->
+<script type="text/javascript" src="js/bootstrap/modal.js"></script>
 
     <!-----image collage link --- -->
       <link rel="stylesheet" type="text/css" href="css/setup_collage.css" media="all" />
@@ -78,6 +79,98 @@ $(window).load(function() {
 <!--timeline script 1 --> 
     
 
+<!----------------   modal1 ---------------------->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">ADD NEW CONTRIBUTORS</h4>
+      </div>
+      <div class="modal-body">
+      This is the placehold for adding new contributors to the event. 
+      <h5>Please select your friends!</h5>
+          <ul class="contributor-add" >
+         <li><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t31.0-1/c0.3.960.960/p960x960/1655827_10200589601821538_1631820609_o.jpg" alt="avatar" class="img-circle" style=" max-width:45px;"> 
+                        <h6>Ehsan. Kloska</h6></a>
+                    </li>
+                    <li><img src="https://scontent-ord.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10653405_633461023454059_8104675664061665325_n.jpg?oh=9c68e2d7f864626bfda5ad41f5aa82f0&oe=55769D40" alt="avatar" class="img-circle" style=" max-width:45px;">
+                        <h6>Naomi. Cowan</h6></a>
+                    </li>
+                    <li> <img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10882181_10152412430331082_1144632921192374713_n.jpg?oh=b99be57819b79fff0db44bd0778b9430&oe=55B06938&__gda__=1438310446_2a4aec53d2970b288c2259e979352113" alt="avatar" class="img-circle" style=" max-width:45px;">
+                        <h6>Heidi. Evans</h6>
+                    </li>
+                    <li>  <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/p160x160/10314520_10152823984834507_3994484356714726282_n.jpg?oh=e6e1fe0c2dc0862ae9197d92b6c7dc1e&oe=55A3534D&__gda__=1436529021_3dbd998950ea19c38587083b9cf0b137" alt="avatar" class="img-circle" style=" max-width:45px;"> 
+                        <h6>Sean. Wise</h6>
+                    </li>   
+                     <li>  <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1488953_10152949681970039_367875086754755680_n.jpg?oh=c6e79a3937bc9b3702f41b088cbcf772&oe=55AF95BF&__gda__=1438359559_8208f7109f8381da1e4d6ab241366c1d" alt="avatar" class="img-circle" style=" max-width:45px;"> 
+                        <h6>Pamela. Livingstone</h6>
+                    </li>   
+    </ul>
+     <ul class="contributor-add">
+         <li><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t31.0-1/c0.3.960.960/p960x960/1655827_10200589601821538_1631820609_o.jpg" alt="avatar" class="img-circle" style=" max-width:45px;"> 
+                        <h6>Ehsan. Kloska</h6></a>
+                    </li>
+                    <li><img src="https://scontent-ord.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10891887_10202627546964854_1626131640320308108_n.jpg?oh=8f75c1867296d706e9fc13a454e349b1&oe=55AEFF56" alt="avatar" class="img-circle" style=" max-width:45px;">
+                        <h6>Naomi. Cowan</h6></a>
+                    </li>
+                    <li> <img src="https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/1511053_10202188380416485_5902196086763730141_n.jpg?oh=ede2e38402b87056a9d6d56975d4abf5&oe=55A96BF2" alt="avatar" class="img-circle" style=" max-width:45px;">
+                        <h6>Heidi. Evans</h6>
+                    </li>
+                    <li>  <img src="https://scontent-ord.xx.fbcdn.net/hphotos-xpf1/v/l/t1.0-9/10999088_10152538959176920_5218342603209694894_n.jpg?oh=4e3b87f5f9c00b5eac62273dffb8da11&oe=55A730D1" alt="avatar" class="img-circle" style=" max-width:45px;"> 
+                        <h6>Richardo.Smith</h6>
+                    </li>   
+                     <li>  <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/11046948_10203226285492014_5164884670156238346_n.jpg?oh=167cd56159d34507bcd4a819f7deeb05&oe=55A2AA61&__gda__=1437549342_8060dcd9d72bbec1ba49a43f25fca51d" alt="avatar" class="img-circle" style=" max-width:45px;"> 
+                        <h6>Jessica. Fung</h6>
+                    </li>   
+    </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Invite</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------end of modal add person --------------- -->
+
+<!----------------   modal2 ---------------------->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">ADD NEW IMAGES</h4>
+      </div>
+      <div class="modal-body">
+      This is the placehold for adding new images to the event. 
+      <h5>Please select your images!</h5>
+         <div class="Collage">
+            <div id="effectimage">
+            <img src="images/1/1.jpg">
+            <img src="images/1/36.jpg">
+            <img src="images/1/35.jpg">
+            <img src="images/1/4.jpg">
+            <img src="http://www.teetooka.com/wp-content/uploads/2013/08/Game-On-2.0-0071.jpg">
+            <img src="images/1/5.jpg">
+            <img src="images/1/32.jpg">
+            <img src="images/1/38.jpg">
+            <img src="images/1/8.jpg">
+            <img src="images/1/9.jpg">
+            <img src="images/1280.jpg">
+            <img src="images/1/11.jpg">
+            <img src="http://www.teetooka.com/wp-content/uploads/2013/08/Game-On-2.0-0071.jpg">
+         </div>
+     </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------------------end of modal add pic --------------- -->
 </head>
 
 <body>
@@ -123,18 +216,23 @@ $(window).load(function() {
             </div> 
 
             <div class="eventname col-md-4" style="display:inline;">
-            <h2>My Birthday Party 
+            <h2>Science Centre Trip
                 <div id="pop1" class="popover" align="center">	
 	<a href="javascript:closePopOver('pop1');"> <h4><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true" style="margin:0 10px 10px 10px;"></span></a>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.595956383943!2d-79.38066100000005!3d43.656574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cad13907bf%3A0x393038cf922e1378!2sDigital+Media+Zone!5e0!3m2!1sen!2sca!4v1427672216436" width="600" height="450" frameborder="0" style="border:0"></iframe>  </h4>                  
 </div>
                 
-             <a href="javascript:showPopOver('pop1');"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></a></h2>                
+             <a href="javascript:showPopOver('pop1');"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></a>
+              <img src="images/timeline/light/addpic.jpg" alt="avatar" class="img-circle" style=" max-width:30px;margin-bottom:5px;" data-toggle="modal" data-target=".bs-example-modal-lg">
+         </h2>                
            
+
             </div> 
             <div class="contributor-tab col-md-6" >
                 <ul><h4>Contributors</h4></ul>
                 <ul class="contributor-each">
+                    <li class="addperson"><img src="images/timeline/light/addperson.jpg" alt="avatar" class="img-circle" style=" max-width:45px; margin-bottom:80px;" data-toggle="modal" data-target="#myModal"> </li>
+
                     <li><a href = "index_ehsan.html"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/t31.0-1/c0.3.960.960/p960x960/1655827_10200589601821538_1631820609_o.jpg" alt="avatar" class="img-circle" style=" max-width:45px;"> 
                         <h6>Ehsan. K</h6></a>
                     </li>
@@ -154,89 +252,76 @@ $(window).load(function() {
     <!-- ---------------------------------------------------- TIMELINE BEGINS ------------------------- -->
             <div class="timelineCard tl">             
                     <div class="item" data-id="10/01" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
-                      <div class="Collage effect-parent">
+                      <div class="Collage">
 
 <!----------------------- one image ------------------>
-  <ul class="time-person">
+                        <div class ="count1">
+                        <div class ="image-place">
+                         <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">2</a></li>     
+                        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/2.jpg"></a></div>
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+    <div class ="image-place">
+     <ul class="time-person">
                          <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
                          <li class="time-person-time" data-id="10/01"> 1:10am </li>     
                          <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
                          <li class="time-person-count"><a id="clicks">0</a></li>     
         </ul>
-                         <a href="#" class="image_rollover_bottom"> <img src="images/1/2.jpg"></a>
+                         <a href="#" class="image_rollover_bottom"> <img src="http://blogs.intel.com/scoop/files/2013/05/0891.jpg"></a></div>
+
 
 <!----------------------- one image ------------------>
 
 <!----------------------- one image ------------------>
+    <div class ="image-place">
   <ul class="time-person">
-                         <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
+                         <li class="time-person-person"> <div class= "contributor-one"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Ehsan Karam"></button></div></li>
                          <li class="time-person-time" data-id="10/01"> 1:10am </li>     
                          <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
-                         <li class="time-person-count"><a id="clicks">0</a></li>     
+                         <li class="time-person-count"><a id="clicks">4</a></li>     
         </ul>
-                         <a href="#" class="image_rollover_bottom"> <img src="images/1/1.jpg"></a>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/5.jpg" style="height:170px; width:250px;"></a></div>
+
 
 <!----------------------- one image ------------------>
 
 <!----------------------- one image ------------------>
+    <div class ="image-place">
   <ul class="time-person">
                          <li class="time-person-person"> <div class= "contributor-one"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Ehsan Karam"></button></div></li>
                          <li class="time-person-time" data-id="10/01"> 1:10am </li>     
                          <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
                          <li class="time-person-count"><a id="clicks">0</a></li>     
         </ul>
-                         <a href="#" class="image_rollover_bottom"> <img src="images/1/5.jpg"></a>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/thumbnails/7.jpg"></a></div>
+
 
 <!----------------------- one image ------------------>
 
 <!----------------------- one image ------------------>
-  <ul class="time-person">
-                         <li class="time-person-person"> <div class= "contributor-one"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Ehsan Karam"></button></div></li>
-                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
-                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
-                         <li class="time-person-count"><a id="clicks">0</a></li>     
-        </ul>
-                         <a href="#" class="image_rollover_bottom"> <img src="images/1/7.jpg"></a>
-
-<!----------------------- one image ------------------>
-
-<!----------------------- one image ------------------>
+    <div class ="image-place">
   <ul class="time-person">
                          <li class="time-person-person"> <div class= "contributor-two"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Sarah Mosniak"></button></div></li>
                          <li class="time-person-time" data-id="10/01"> 1:10am </li>     
                          <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
-                         <li class="time-person-count"><a id="clicks">0</a></li>     
+                         <li class="time-person-count"><a id="clicks">1</a></li>     
         </ul>
-                         <a href="#" class="image_rollover_bottom"> <img src="images/1/9.jpg"></a>
+                         <a href="#" class="image_rollover_bottom"> <img src="http://www.teetooka.com/wp-content/uploads/2013/08/Game-On-2.0-0071.jpg"></a></div>
 
-<!----------------------- one image ------------------>
-
-<!----------------------- one image ------------------>
-  <ul class="time-person">
-                         <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
-                         <li class="time-person-time" data-id="10/01"> 1:10am </li>     
-                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
-                         <li class="time-person-count"><a id="clicks">0</a></li>     
-        </ul>
-                         <a href="#" class="image_rollover_bottom"> <img src="images/1/4.jpg"></a>
 
 <!----------------------- one image ------------------>
 
     </div>
-            <a href="#" class="image_rollover_bottom">
-            <img src="images/thumbnails/2.jpg" alt=""/>
-            </a>
-           <ul class="time-person">
-                    <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
-                    <li class="time-person-time"> 1:10am </li>           
-        </ul>
-                  <a href="#" class="image_rollover_bottom">
-            <img src="images/thumbnails/1.jpg" alt=""/>
-            </a>
-           <ul class="time-person">
-                    <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
-                    <li class="time-person-time"> 1:10am </li>           
-        </ul>
+    </div>
+  
             <!-- <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at semper risus. Curabitur mattis dapibus quam, tincidunt rutrum sapient porta sit amet...</span>
             <div class="read_more" data-id="04/06/2012">Read more</div> 
         </div>
@@ -249,26 +334,102 @@ $(window).load(function() {
             </div>-->
         </div>
         
-        <div class="item" data-id="42/01" data-description="adipiscing elit...">
-            <a href="#" class="image_rollover_bottom">
-            <img src="images/thumbnails/2.jpg" alt=""/>
-            </a>
-            
-          <ul class="time-person">
-                    <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
-                    <li class="time-person-time"><h2> 6:30pm </h2></li>           
+        <div class="item" data-id="42/01" data-description="adipiscing elit..." style="width:650px;">
+ <div class="Collage">
+
+<!----------------------- one image ------------------>
+                        <div class ="count2">
+                        <div class ="image-place">
+                         <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:42am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+                        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/3.jpg"></a></div>
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+    <div class ="image-place">
+     <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-three"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Jack Frost"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:42am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
         </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/7.jpg" style="height:170px; width:250px;"></a></div>
+
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+    <div class ="image-place">
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-one"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Ehsan Karam"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:42am </li>        
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/4.jpg"></a></div>
+
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+    <div class ="image-place">
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-one"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Ehsan Karam"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:42am </li>      
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/thumbnails/2.jpg"></a></div>
+
+
+<!----------------------- one image ------------------>
+
+<!----------------------- one image ------------------>
+    <div class ="image-place">
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-two"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Sarah Mosniak"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:42am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/11.jpg"></a></div>
+
+
+<!----------------------- one image ------------------>
+<!----------------------- one image ------------------>
+    <div class ="image-place">
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-two"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Sarah Mosniak"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:42am </li>       
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/13.jpg"></a></div>
+
+
+<!----------------------- one image ------------------>
+<!----------------------- one image ------------------>
+    <div class ="image-place">
+  <ul class="time-person">
+                         <li class="time-person-person"> <div class= "contributor-two"class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Sarah Mosniak"></button></div></li>
+                         <li class="time-person-time" data-id="10/01"> 1:42am </li>     
+                         <li class="time-person-like"><span class="glyphicon glyphicon-thumbs-up" onClick="onClick()"></span> </li>
+                         <li class="time-person-count"><a id="clicks">0</a></li>     
+        </ul>
+                         <a href="#" class="image_rollover_bottom"> <img src="images/1/16.jpg" style="height:170px; width:250px;"></a></div>
+
+
+<!----------------------- one image ------------------>
+
+    </div>
+    </div>
         </div>
-        
-        <div class="item" data-id="23/02" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
-            <a href="#" class="image_rollover_bottom">
-            <img src="images/thumbnails/3.jpg" alt=""/>
-            </a>
-           <ul class="time-person">
-                    <li class="time-person-person"> <div class= "contributor-two" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Sarah Mosniak"></button></div></li>
-                    <li class="time-person-time"><h2> 6:40pm </h2></li>           
-        </ul>          
-        </div>
+        <!-- ------------------------------ number 2 ends                    -->
 
 
         <div class="item" data-id="45/02" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit...">
